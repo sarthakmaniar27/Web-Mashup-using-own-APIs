@@ -13,3 +13,11 @@ The methods for calling these APIs are present in the respective python files. I
 For the frontend, i have simply used Html and CSS.
 
 ## Here are the screenshots of my website:
+
+<img width="1440" alt="Screenshot 2021-02-18 at 6 54 02 PM" src="https://user-images.githubusercontent.com/47854537/109557900-b7458300-7afe-11eb-8f05-bca52ac2274e.png">
+
+<img width="1440" alt="Screenshot 2021-02-18 at 6 54 22 PM" src="https://user-images.githubusercontent.com/47854537/109557919-bdd3fa80-7afe-11eb-84e5-c47b5b1ac9ca.png">
+
+<img width="1440" alt="Screenshot 2021-02-18 at 6 54 34 PM" src="https://user-images.githubusercontent.com/47854537/109557925-c0365480-7afe-11eb-8450-fcabc8121ed8.png">
+
+
