@@ -1,11 +1,92 @@
 <html>
+<head>
+   <h1 style="font-size: 50px; text-align:center; margin-top:50px; color:white;">Find your Committee</h1>
+   <style>
+body {
+ background-image: url("https://cdn.slashgear.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+input[type=text] {
+  width: 150px;
+  padding: 12px 20px;
+  margin: 6px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  outline: none;
+}
+input[type=submit] {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+</style>
+</head>
+
    <body>
-      <form action = "http://localhost:5003/result" method = "POST">
-         <p>Name <input type = "text" name = "Name" /></p>
-         <p>Physics <input type = "text" name = "Physics" /></p>
-         <p>Chemistry <input type = "text" name = "chemistry" /></p>
-         <p>Maths <input type ="text" name = "Mathematics" /></p>
-         <p><input type = "submit" value = "submit" /></p>
+   <table align="center" style="margin-top:20px;">
+            <tr>
+               <td>
+                  <p><input type = "submit" value = "IEEE" /></p>
+               </td>
+               <td> &nbsp;&nbsp;</td>
+                <td>
+                  <p><input type = "submit" value = "ECELL" /></p>
+               </td>
+               <td> &nbsp;&nbsp;</td>
+               <td>
+                  <p><input type = "submit" value = "ITSA" /></p>
+               </td>
+               <td> &nbsp;&nbsp;</td>
+               <td>
+                  <p><input type = "submit" value = "CSI" /></p>
+               </td>
+               <td> &nbsp;&nbsp;</td>
+               <td>
+                  <p><input type = "submit" value = "WIE" /></p>
+               </td>
+               <td> &nbsp;&nbsp;</td>
+               <td>
+                  <p><input type = "submit" value = "FACE" /></p>
+               </td>
+               <td> &nbsp;&nbsp;</td>
+               <td>
+                  <p><input type = "submit" value = "SPORTS" /></p>
+               </td>
+               <td> &nbsp;&nbsp;</td>
+               <td>
+                  <p><input type = "submit" value = "IETE" /></p>
+               </td>
+               <td> &nbsp;&nbsp;</td>
+               <td>
+                  <p><input type = "submit" value = "IIC" /></p>
+               </td>
+               <td> &nbsp;&nbsp;</td>
+            </tr>
+         </table>
+      <form action = "/result" method = "POST">
+         <table align="center" style="margin-top:150px;">
+            <tr>
+               <td>
+               <p style="font-size: 30px; color:white"><b>Enter Committee Name <input type = "text" name = "Name" /> </b></p>
+               </td>
+               <td> &nbsp;&nbsp;</td>
+                <td>
+               <p><input type = "submit" value = "submit" /></p>
+               </td>
+            </tr>
+         </table>
+
+
       </form>
    </body>
 </html>
+

@@ -1,11 +1,49 @@
 <!doctype html>
 <html>
+<head>
+   <style>
+body {
+ background-image: url("https://cdn.slashgear.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+#students {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#students td, #students th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#students th:nth-child(even){
+background-color: red;
+}
+
+#students th:hover {
+background-color: cyan;
+}
+
+#students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: black;
+}
+</style>
+</head>
    <body>
-      <table border = 1>
-         {% for key, value in result.items() %}
+   <h1 style="text-align:center; color:white; font-size: 50px;">About us:</h1>
+   <h2 style="color:orange; text-align:center;" > <b> {{value}} </b> </h2>
+   <br>
+   <h1 style="color:white; text-align:center; font-size: 50px;">Our team:</h1>
+      <table id="students">
+         {% for value in result %}
             <tr>
-               <th> {{ key }} </th>
-               <td> {{ value }} </td>
+               <th> {{ value }} </th>
             </tr>
          {% endfor %}
       </table>

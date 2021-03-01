@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8df08b8-c4d8-4504-86f6-ffe5dd4b8c51" name="Default Changelist" comment="" />
+    <list default="true" id="c8df08b8-c4d8-4504-86f6-ffe5dd4b8c51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stud_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/stud_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webservices.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,18 +19,32 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="ProjectId" id="1o7QCjs2a4UQigV1zyfxz7S551H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.webservices">
     <configuration name="tp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -88,25 +110,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="162" key="GridCell.Tab.0.bottom" timestamp="1613110806229">
+    <state x="351" y="49" key="CommitChangelistDialog2" timestamp="1614631554625">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="162" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1613110806229" />
+    <state x="351" y="49" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1614631554625" />
+    <state width="1419" height="162" key="GridCell.Tab.0.bottom" timestamp="1613655854182">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="162" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1613655854182" />
     <state width="1419" height="237" key="GridCell.Tab.0.bottom/0.25.1440.797@0.25.1440.797" timestamp="1612641759299" />
-    <state width="1419" height="162" key="GridCell.Tab.0.center" timestamp="1613110806228">
+    <state width="1419" height="162" key="GridCell.Tab.0.center" timestamp="1613655854179">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="162" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1613110806228" />
+    <state width="1419" height="162" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1613655854179" />
     <state width="1419" height="237" key="GridCell.Tab.0.center/0.25.1440.797@0.25.1440.797" timestamp="1612641759298" />
-    <state width="1419" height="162" key="GridCell.Tab.0.left" timestamp="1613110806228">
+    <state width="1419" height="162" key="GridCell.Tab.0.left" timestamp="1613655854177">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="162" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1613110806228" />
+    <state width="1419" height="162" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1613655854177" />
     <state width="1419" height="237" key="GridCell.Tab.0.left/0.25.1440.797@0.25.1440.797" timestamp="1612641759297" />
-    <state width="1419" height="162" key="GridCell.Tab.0.right" timestamp="1613110806229">
+    <state width="1419" height="162" key="GridCell.Tab.0.right" timestamp="1613655854180">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="162" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1613110806229" />
+    <state width="1419" height="162" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1613655854180" />
     <state width="1419" height="237" key="GridCell.Tab.0.right/0.25.1440.797@0.25.1440.797" timestamp="1612641759299" />
+    <state x="506" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614631544179">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="506" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1614631544179" />
   </component>
 </project>
